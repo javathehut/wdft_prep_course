@@ -31,3 +31,17 @@ parseInt("113");
 parseFloat("1.12356");
 var x = parseInt("Hello World");
 console.log(x);
+
+//Diving Deeper RegEx
+//Match "BrainStation"
+var str = "I am a BrainStation student.";
+var str2 = "I am a student.";
+var n = str.search("BrainStation");
+var n2 = str2.search("BrainStation");
+
+console.log(n);
+console.log(n2);
+
+//Replace String
+var n3 = str.replace("BrainStation student" , "Junior Developer");
+console.log(n3);
