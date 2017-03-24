@@ -30,13 +30,13 @@ Exercise #4
 Use the console.log() function and the array .pop() to add all the values in the array.
 */
 
-/*var sum = 0;
+var sum = 0;
 while(numbers.length != 0){
-    //write pop function here
-
+    //pop function
+    sum = numbers.pop() + sum;   
 }
 
-console.log(sum);*/
+console.log(sum);
 
 
 /*
@@ -47,7 +47,7 @@ var car = {};
 
 /*
 Exercise #6
-Give the car object a property called "colour" and assign it the value of "black". Test that your code works correctly by outputing property EDIT: colour to the console. You should see the value "black" printed out.
+Give the car object a property called "colour" and assign it the value of "black". Test that your code works correctly by outputing property colour to the console. You should see the value "black" printed out.
 */
 
 car.colour = "black";
