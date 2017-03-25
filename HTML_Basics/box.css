@@ -1,0 +1,23 @@
+.box {
+    width: 200px;
+    background-color: darkgray;
+    padding: 10px 20px;
+    border: 2px dotted white;
+    margin: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: x-small;
+}
+
+#brain1 {
+    height: 200px;
+    border: 10px solid #D3D3D3;
+    margin: 10px;
+}
+
+#brain2 {
+    width: 200px;
+    padding: 10px;
+    background-color: #D3D3D3;
+    margin: 10px;
+}
