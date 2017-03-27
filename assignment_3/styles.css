@@ -29,41 +29,58 @@ div
 
 /* FIRST ROW : FLOATS; */
 .a1 {
+	float: right;
 }
 
-.b1 {
+.b1 {	
 }
 
 .c1 {
+	float: right;
 }
 
 .d1 {
+	float: left;
 }
 
 /* SECOND ROW : DISPLAY */
 
 .a2 {
+	display: inline-block;
 }
 
 .b2 {
+	display: none;
 }
 
 .c2 {
+	display: inline;
 }
 
 .d2 {
+	display: block;
 }
 
 /* THIRD ROW : POSITION */
 
-.a3 {
+.a3 {	
 }
 
 .b3 {
+	position: absolute;
+	top: 400px;
+	left: 150px;
 }
 
+/*Since div has no set width, c3 is positioned relative to d3 in the provided image*/
 .c3 {
+	position: fixed;
+	left: 600px;
+	top: 500px;
 }
 
 .d3 {
+	position: absolute;
+	top: 300px;
+	left: 350px;
 }
