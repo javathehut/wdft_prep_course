@@ -1,0 +1,37 @@
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row1 {
+    display: inline-block;
+    margin: 0 15px 20px 0;
+/* magin-right is 16px because inline-block adds extra margin space*/
+}
+
+
+.row2 {
+    float: left;
+}
+
+.between {
+    height: 150px;
+    width: 20px;
+}
+
+.row3 {
+    position: absolute;
+    top: 360px;
+}
+
+
+#box3-2 {
+    left: 179px;
+}
+
+#box3-3 {
+    left: 349px;
+}
